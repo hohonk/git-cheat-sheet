@@ -46,3 +46,9 @@
 ``` git reset --hard [хэш коммита] ```  
 ``` git push --force origin main ```  
 Когда нужно откатиться к нужному коммиту
+
+#### Remove last commit from remote Git repository  
+```git reset HEAD^ ```  
+remove commit locally  
+```git push origin +HEAD ```   
+force-push the new HEAD commit  
